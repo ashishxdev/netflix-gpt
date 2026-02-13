@@ -1,64 +1,34 @@
-# Netflix GPT
+# 🎬 Netflix GPT
 
-- Create React App
-- Configured Tailwind CSS
-- Header
-- Routing of Form
-- Login Form
-- Sign Up Form 
-    - (If we have big form in project like we have 50-60 fields always use library like Formik)
-- Form Validation
-- useRef Hook
-- Firebase Setup
-- Deploying our app to production
-- Create Signup User Account
-- Implement Sign In user Api
-- Created Redux Store with userSlice
-- Impletemented Sign Out
-- Update Profile
-- Bug Fix: Sign up user displayName and profile Picture update
-- Bug Fix: If the user isn't logged in Redirect /browse to Login Page and vice-versa
-- Unsubscribed to the onAuthStateChanged CallBack
-- Add hardcoded values to the constant file
-- Register TMDB API & create an app & get access token
-- Get Data from TMDB now playing movies list API
-- Custom Hook for Now Playing Movies
-- Create movieSlice
-- Update Store with movies Data
-- Planning for MainContainer and SecondaryContainer
-- Fetch Data for Trailer Video
-- Update Store with Trailer Video Data
-- Embedded the Youtube video and make it autoplay and mute
-- Tailwind Classes to make MainContainer look awesome
-- Building Secondary Component
-- Build MovieList
-- Build MovieCard
-- TMDB Image CDN URL
-- Made the Browse page amazing with Tailwind CSS
-- usePopularMovies, useTopRatedMovies, useUpcomingMovies Custom hook
-- GPT Search Page
-- GPT Search Bar
-- Multi-Language Feature in our App
-- Integrate GPT APIs
-- GPT Search API Call
-- Fetched GPT Movie Suggestions from TMDB
-- create gptSlice added data 
-- Reused MovieList Components to make movie Suggestion container
-- Memoization
-- Adding .env file to gitignore
-- Made our Site Responsive
+A Netflix inspired movie app with GPT powered search and recommendations.  
+Built using React, Firebase, Redux, TMDB API, and Tailwind CSS.
 
-# Features
-- Login/Signup
-    - Sign In /Sign up form
-    - Redirect to Browser Page 
-- Browse (after authentication)
-    - Header
-    - Main Movie
-        - Trailer In Background
-        - Title & Description
-        - Movie Suggestions
-            - Movie Lists * N
-- Netflix GPT
-    - Search Bar
-    - Movie Suggestions
+---
+
+## 🚀 Features
+
+- 🔐 Authentication (Firebase)
+- 🎥 Browse Movies (Now Playing, Popular, Top Rated, Upcoming)
+- ▶️ Background Trailer with YouTube Embed
+- 🤖 GPT-Based Movie Search *(Currently not functional — API credits exhausted)*
+- 🌍 Multi-language Support
+- 📱 Fully Responsive Design
+
+---
+
+## 🛠️ Tech Stack
+
+- React (CRA)
+- Tailwind CSS
+- Firebase Auth
+- Redux Toolkit
+- TMDB API
+- OpenAI GPT API
+
+---
+
+## 📦 Installation
+
+```bash
+npm install
+npm start
